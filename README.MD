@@ -1,0 +1,11 @@
+# Implementations of Data Structures and Algorithm in CS
+This repository houses implementations of popular data structures and algorithms in computer science.
+
+## Implemented in the following languages:
+- Python
+- JavaScript
+- Java
+
+## Notes
+- Each data structure/algorithm has a folder, in it contains the implementations in the listed languages above.
+- Each folder has a **README** that explains the data structure/algorithm and some links to where to learn them from.

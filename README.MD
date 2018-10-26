@@ -1,4 +1,4 @@
-# Implementations of Data Structures and Algorithm in CS
+# Implementations of Data Structures and Algorithms in CS
 This repository houses implementations of popular data structures and algorithms in computer science.
 
 ## Implemented in the following languages:

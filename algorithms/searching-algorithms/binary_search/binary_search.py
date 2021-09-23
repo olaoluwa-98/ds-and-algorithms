@@ -1,6 +1,6 @@
 def binary_search(arr, item):
     """
-        This searches by dividing the work
+        This searches by repeatedly splitting an array in two and searches each side.
     """
     first = 0
     last = len(arr) - 1

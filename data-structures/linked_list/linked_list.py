@@ -76,21 +76,15 @@ ll.append(e2)
 ll.append(e3)
 
 # Test get_position
-# Should print 3
-print (ll.head.next.next.value)
-# Should also print 3
-print (ll.get_position(3).value)
+assert ll.head.next.next.value == 3
+assert ll.get_position(3).value == 3
 
 # Test insert
 ll.insert(e4,3)
-# Should print 4 now
-print (ll.get_position(3).value)
+assert ll.get_position(3).value == 4
 
 # # Test delete
 ll.delete(1)
-# Should print 2 now
-print (ll.get_position(1).value)
-# Should print 4 now
-print (ll.get_position(2).value)
-# Should print 3 now
-print (ll.get_position(3).value)
+assert ll.get_position(1).value == 2
+assert ll.get_position(2).value == 4
+assert ll.get_position(3).value == 3
